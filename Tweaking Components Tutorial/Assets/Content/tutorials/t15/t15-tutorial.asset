@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
+  m_Name: t15-tutorial
+  m_EditorClassIdentifier: 
+  m_TutorialTitle: Setting values
+  m_LessonId: 48137
+  m_Version: 1.3
+  m_Scene: {fileID: 102900000, guid: 94c16397b999d4b4699be55901c9ea55, type: 3}
+  m_DefaultSceneCameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_WelcomePage: {fileID: 0}
+  m_CompletedPage: {fileID: 0}
+  IsWelcomingPageShowing: 1
+  IsCompletedPageShowing: 0
+  m_Pages:
+    m_Items:
+    - {fileID: 11400000, guid: 6d55fed40c5394ec4b43139708b4a870, type: 2}
+    - {fileID: 11400000, guid: e698e9e845fc04b58a6020d77955304f, type: 2}
+    - {fileID: 11400000, guid: 3a2f76b01febc4f0a947f6228cce8d8f, type: 2}
+    - {fileID: 11400000, guid: c4b14fa11f0ee41fd86746174cd21171, type: 2}
+    - {fileID: 11400000, guid: 9454a014ec0304ed4a1fdec51b32a7d5, type: 2}
+    - {fileID: 11400000, guid: 296decd5d96444682837233cd4738697, type: 2}
+    - {fileID: 11400000, guid: 3a2554a2ba00f459fa21cc0a2996493a, type: 2}
+    - {fileID: 11400000, guid: 21d46d45136684306aaa2d3351cfa53a, type: 2}
+    - {fileID: 11400000, guid: 1517babff592e4ecb915e3563be3b9bb, type: 2}
+    - {fileID: 11400000, guid: 60318d14d6a3a4137b03dd90728736df, type: 2}
+    - {fileID: 11400000, guid: 6ce2d9becca7f43b5a8c854794060cda, type: 2}
+    - {fileID: 11400000, guid: bb220d43107494d1ba624ca624b956df, type: 2}
+    - {fileID: 11400000, guid: 708a910d4f73640cf8d9ae982833d400, type: 2}
+    - {fileID: 11400000, guid: 1a6b108ed759746f082e1647eefe6d3a, type: 2}
+  m_CurrentPageIndex: 0
+  m_WindowLayout: {fileID: 102900000, guid: cc634fccf0b7c4f3382242f9850148be, type: 3}
