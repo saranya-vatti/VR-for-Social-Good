@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: ce7f0c58b028dd34d899a42c80dffffd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Female_Office_Worker1
+    100004: Mesh1
+    100006: Mesh2
+    100008: Mesh3
+    100010: Mesh4
+    100012: Mesh5
+    100014: Mesh6
+    100016: Mesh7
+    100018: objFigure1
+    100020: objFigure2
+    100022: objFigure3
+    100024: objFigure_
+    100026: sub01
+    100028: sub02
+    100030: sub03
+    100032: sub04
+    400000: //RootNode
+    400002: Female_Office_Worker1
+    400004: Mesh1
+    400006: Mesh2
+    400008: Mesh3
+    400010: Mesh4
+    400012: Mesh5
+    400014: Mesh6
+    400016: Mesh7
+    400018: objFigure1
+    400020: objFigure2
+    400022: objFigure3
+    400024: objFigure_
+    400026: sub01
+    400028: sub02
+    400030: sub03
+    400032: sub04
+    2100000: M_0077_DarkGreen
+    2100002: M_0072_DarkSeaGreen
+    2100004: m_skirt_1
+    2100006: M_0075_ForestGreen
+    2100008: m_belt_1
+    2100010: M_0059_DarkOliveGreen
+    2100012: shirt_1
+    2100014: wire_1
+    2100016: M_0061_OliveDrab
+    2100018: label_1
+    2100020: M_0058_Olive
+    2100022: inside_1
+    2100024: M_0137_Black
+    2100026: M_0136_Charcoal
+    2100028: tip_1
+    2100030: outside_1
+    2100032: M_0035_Tan
+    2100034: __Nipple_1
+    2100036: __InnerMouth_1
+    2100038: __SkinHead_1
+    2100040: __Eyelash_1
+    2100042: __Lacrimal_1
+    2100044: __Tear_1
+    2100046: __EyeSocket_1
+    2100048: M_0023_FireBrick
+    2100050: __Nostril_1
+    2100052: wire_2
+    2100054: __Sclera_1
+    2100056: Water_Stream
+    2100058: __Iris_1
+    2100060: __Pupil_1
+    2100062: __Gums_1
+    2100064: __Teeth_1
+    2100066: __Tongue_1
+    2100068: __SkinTorso_1
+    2100070: __SkinArm_1
+    2100072: __SkinHand_1
+    2100074: __Fingernail_1
+    2100076: __SkinFoot_1
+    2100078: __Toenail_1
+    2100080: __SkinHip_1
+    2100082: Paper_1
+    2100084: Eraser_1
+    2100086: Pencil_1
+    2100088: Point_1
+    2100090: M_0040_Peru
+    2100092: M_0119_RosyBrown
+    2100094: Top_1
+    2100096: Bangs_1
+    2100098: Wisps_1
+    2300000: Mesh1
+    2300002: Mesh2
+    2300004: Mesh3
+    2300006: Mesh4
+    2300008: Mesh5
+    2300010: Mesh6
+    2300012: Mesh7
+    3300000: Mesh1
+    3300002: Mesh2
+    3300004: Mesh3
+    3300006: Mesh4
+    3300008: Mesh5
+    3300010: Mesh6
+    3300012: Mesh7
+    4300000: Mesh1
+    4300002: Mesh2
+    4300004: Mesh3
+    4300006: Mesh4
+    4300008: Mesh5
+    4300010: Mesh6
+    4300012: Mesh7
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
