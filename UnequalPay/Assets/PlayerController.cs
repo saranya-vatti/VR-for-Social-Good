@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-    private string timeLeft;
-    private Text moneyEarned;
+    private int time;
+    public Text moneyEarned;
+    public Text timeLeft;
     private double money;
 
 	// Use this for initialization
 	void Start () {
-        timeLeft = "08:00 hours";
+        time = 8;
+        timeLeft.text = "Time Left: " + timeLeft.ToString() + " hours";
         money = 0.0;
         moneyEarned.text = "Bank: $" + money.ToString();
 	}
@@ -20,4 +22,12 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void UpdateStats (int t, double m)
+    {
+        time = time - t;
+        timeLeft.text = "Time Left: " + timeLeft.ToString() + " hours";
+        money = m;
+        moneyEarned.text = "Bank: $" + money.ToString();
+    }
 }
