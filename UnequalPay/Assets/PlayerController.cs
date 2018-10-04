@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour {
     {
         time = time - t;
         timeLeft.text = "Time Left: " + timeLeft.ToString() + " hours";
-        money = m;
+        money = money + m;
         moneyEarned.text = "Bank: $" + money.ToString();
     }
 }
