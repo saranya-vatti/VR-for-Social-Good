@@ -2,16 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LaptopController : MonoBehaviour
-{
-    private PlayerController playerControllerScript;
-    public GameObject uiObject;
+public class ArianaController : MonoBehaviour {
 
+    public GameObject uiObject;
 
     // Use this for initialization
     void Start()
     {
-        playerControllerScript = GameObject.Find("FirstPersonCharacter").GetComponent<PlayerController>();
         uiObject.SetActive(false);
     }
 
@@ -26,13 +23,12 @@ public class LaptopController : MonoBehaviour
         {
             uiObject.SetActive(true);
             StartCoroutine("WaitForSec");
-            playerControllerScript.UpdateStats(2, 200);
         }
 
     }
     IEnumerator WaitForSec()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(5);
         uiObject.SetActive(false);
     }
 }

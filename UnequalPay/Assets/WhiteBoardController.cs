@@ -26,7 +26,7 @@ public class WhiteBoardController : MonoBehaviour {
     }
     IEnumerator WaitForSec()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(6);
         uiObject.SetActive(false);
     }
 }

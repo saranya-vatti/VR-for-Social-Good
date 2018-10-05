@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LaptopController : MonoBehaviour
-{
+public class BoxPileController : MonoBehaviour {
+
     private PlayerController playerControllerScript;
     public GameObject uiObject;
 
@@ -26,7 +26,7 @@ public class LaptopController : MonoBehaviour
         {
             uiObject.SetActive(true);
             StartCoroutine("WaitForSec");
-            playerControllerScript.UpdateStats(2, 200);
+            playerControllerScript.UpdateStats(1, 100);
         }
 
     }
@@ -34,5 +34,7 @@ public class LaptopController : MonoBehaviour
     {
         yield return new WaitForSeconds(4);
         uiObject.SetActive(false);
+        Destroy(gameObject);
+        Destroy(uiObject);
     }
 }

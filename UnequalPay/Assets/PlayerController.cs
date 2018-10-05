@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         time = 8;
-        timeLeft.text = "Time Left: " + timeLeft.ToString() + " hours";
+        timeLeft.text = "Time Left: " + time.ToString() + " hours";
         money = 0.0;
         moneyEarned.text = "Bank: $" + money.ToString();
 	}
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
     public void UpdateStats (int t, double m)
     {
         time = time - t;
-        timeLeft.text = "Time Left: " + timeLeft.ToString() + " hours";
+        timeLeft.text = "Time Left: " + time.ToString() + " hours";
         money = money + m;
         moneyEarned.text = "Bank: $" + money.ToString();
     }
