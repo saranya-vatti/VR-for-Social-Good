@@ -26,7 +26,6 @@ public class LaptopController : MonoBehaviour
         {
             uiObject.SetActive(true);
             StartCoroutine("WaitForSec");
-            playerControllerScript.UpdateStats(2, 200);
         }
 
     }
@@ -34,5 +33,7 @@ public class LaptopController : MonoBehaviour
     {
         yield return new WaitForSeconds(4);
         uiObject.SetActive(false);
+        playerControllerScript.UpdateStats(2, 200);
+        Destroy(gameObject);
     }
 }

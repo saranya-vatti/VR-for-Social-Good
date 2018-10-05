@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class BrandonController : MonoBehaviour {
 
+    private PlayerController playerControllerScript;
     public GameObject uiObject;
 
     // Use this for initialization
     void Start()
     {
         uiObject.SetActive(false);
+        playerControllerScript = GameObject.Find("FirstPersonCharacter").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -30,5 +32,7 @@ public class BrandonController : MonoBehaviour {
     {
         yield return new WaitForSeconds(8);
         uiObject.SetActive(false);
+        playerControllerScript.UpdateStats(2, 200);
+        Destroy(gameObject);
     }
 }

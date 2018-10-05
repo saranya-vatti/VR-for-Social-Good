@@ -34,7 +34,7 @@ public class BoxPileController : MonoBehaviour {
     {
         yield return new WaitForSeconds(4);
         uiObject.SetActive(false);
-        Destroy(gameObject);
         Destroy(uiObject);
+        Destroy(gameObject);
     }
 }
